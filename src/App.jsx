@@ -20,19 +20,20 @@ export default function App() {
     } else {
       return "This is not palindrome!"
     }
-
-    return (
-      <>
-        <div className="inputValue">
-          <h1>Palindrome checker App</h1>
-          <input id="search"
-            type="text"
-            value={searchValue}
-            placeholder="Enter word, number, or phrase" onChange={searchHandler} />
-          <p>{palindrome()}</p>
-
-        </div>
-      </>
-    );
   }
+
+  return (
+    <>
+      <div className="inputValue">
+        <h1>Palindrome checker App</h1>
+        <input id="search"
+          type="text"
+          value={searchValue}
+          placeholder="Enter word, number, or phrase" onChange={searchHandler} />
+        <p>{palindrome()}</p>
+
+      </div>
+    </>
+  );
 }
+
