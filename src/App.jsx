@@ -8,7 +8,6 @@ export default function App() {
   };
 
   function palindrome() {
-    //const name = 'Hi my name is Flavio'
     //name.replace(/\s/g, '') //HimynameisFlavio
     //The \s meta character in JavaScript regular expressions matches any whitespace character: spaces, tabs, newlines and Unicode spaces. And the g flag tells JavaScript to replace it multiple times. If you miss it, it will only replace the first occurrence of the white space.
     let string = String(searchValue).toLowerCase().replace(/\s/g, '');
